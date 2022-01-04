@@ -1,4 +1,4 @@
-# Lung-CT-Segmentation
+# Segnet
 Classification of lung area only in lung CT
 
 Title
@@ -8,3 +8,6 @@ Title
 4. Results and Discussion
 5. Conclusion
 6. References
+
+
+## 1. Abstract
