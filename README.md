@@ -3,12 +3,10 @@ Classification of lung area only in lung CT
 
 ## Title
 1. Abstract
-2. Project content and method
+2. Content
 3. Results and Discussion
 4. Conclusion
 5. References
-
-
 
 
 
@@ -17,13 +15,16 @@ Classification of lung area only in lung CT
   
 (Ko)본 프로젝트는 MSA환자의 피각 조직 분할 연습을 위해 수행하였다. 이미지 분할 알고리즘은 Autoencoder를 기반으로 한다. Autoencoder는 비지도학습 인공지능 알고리즘으로 입력 데이터의 차원을 변환한 다음 원래 상태로 복원하는 형태를 취한다. Segnet을 사용함으로써 사용자는 이미지에서 특정 인스턴스를 추출할 수 있다. 본 프로젝트에 사용된 학습 데이터는 240개의 256x256 폐 CT 이미지와 테스트를 위해 27개의 같은 shape의 폐CT 데이터를 사용하였으며[1], 100 epoch 학습을 통해 약 0.98의 정확도를 얻을 수 있었다.
 
-## 2. Introduction
-### 1) Content
-![image](https://user-images.githubusercontent.com/58457155/180983945-5bcd6834-48d4-4d31-8f71-56e6427f3abf.png)Fig 1. Segnet Architecture
-
+## 2. Content
   (Eng)Segnet aims to segment objects in an image into meaningful units. In other words, it predicts which class each pixel in the image belongs to. Since the purpose of this project is to segment only the lung position on the CT image, in the output image, the value of the pixel to which the lung belongs is 1, and all other pixel values are 0.
   The structure of Segnet is divided into Encoding Part and Decoding Part as shown in Figure 1. Each part is responsible for compressing the original image and restoring the compressed image.
   
   (Ko)Segnet은 이미지 내의 물체들을 의미 있는 단위로 분할해 내는 것을 목적으로 한다. 즉, 이미지의 각 픽셀이 어느 클레스에 속하는지 예측하는 것이다. 본 프로젝트에서는 CT 이미지상에서 폐의 위치만 분할하는 것이 목적이기에 출력 이미지는 폐가 속한 픽셀의 값은 1, 그 이외의 픽셀값은 전부 0으로 나타내어 진다.
  Segnet의 구조는 그림 1과 같이 Encoding 파트와 Decoding 파트 2개로 나뉜다. 각각의 파트는 원본 이미지를 압축시키고 압축된 이미지를 복원하는 역할을 담당한다. 
+ 
+
+ 
+ ![image](https://user-images.githubusercontent.com/58457155/180983945-5bcd6834-48d4-4d31-8f71-56e6427f3abf.png)Fig 1. Segnet Architecture[2]
+ 
+  
  
