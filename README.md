@@ -4,9 +4,8 @@ Classification of lung area only in lung CT
 ## Title
 1. Abstract
 2. Content
-3. Results and Discussion
-4. Conclusion
-5. References
+3. Result
+4. References
 
 
 
@@ -26,5 +25,8 @@ Classification of lung area only in lung CT
  
  ![image](https://user-images.githubusercontent.com/58457155/180983945-5bcd6834-48d4-4d31-8f71-56e6427f3abf.png)Fig 1. Segnet Architecture[2]
  
-  
+  ## 3. Result
+    (Eng)As shown in Fig 2, DSC of about 0.98 can be confirmed, and the validation result is also shown with a similar value. The overall learning proceeded smoothly and there was no overfitting.
+    (Ko)그림 2와 같이 약 0.98의 DSC를 확인할 수 있고 validation 결과 역시 비슷한 수치로 나타나고 있다. 전체적인 학습이 원활하게 진행되었고 overfitting 또한 되지 않았다.
+ 
  
