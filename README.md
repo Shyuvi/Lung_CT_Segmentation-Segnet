@@ -32,4 +32,5 @@ Classification of lung area only in lung CT
  
  ![image](https://user-images.githubusercontent.com/58457155/181034867-bbc5b9c9-7025-43d7-816b-c84a5203c9fa.png)
  Fig 2. Training result  figure
- 
+ ![image](https://user-images.githubusercontent.com/58457155/181035496-a1a69884-8096-4eb6-97e1-05da535b0904.png)
+Fig 3. Predict results
