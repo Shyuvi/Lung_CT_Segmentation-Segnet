@@ -19,6 +19,7 @@ Classification of lung area only in lung CT
 
 ## 2. Introduction
 ### 1) Content
+![image](https://user-images.githubusercontent.com/58457155/180983945-5bcd6834-48d4-4d31-8f71-56e6427f3abf.png)Fig 1. Segnet Architecture
 
   (Eng)Segnet aims to segment objects in an image into meaningful units. In other words, it predicts which class each pixel in the image belongs to. Since the purpose of this project is to segment only the lung position on the CT image, in the output image, the value of the pixel to which the lung belongs is 1, and all other pixel values are 0.
   The structure of Segnet is divided into Encoding Part and Decoding Part as shown in Figure 1. Each part is responsible for compressing the original image and restoring the compressed image.
