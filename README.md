@@ -20,3 +20,9 @@ Classification of lung area only in lung CT
 ## 2. Introduction
 ### 1) Content
 
+  (Eng)Segnet aims to segment objects in an image into meaningful units. In other words, it predicts which class each pixel in the image belongs to. Since the purpose of this project is to segment only the lung position on the CT image, in the output image, the value of the pixel to which the lung belongs is 1, and all other pixel values are 0.
+  The structure of Segnet is divided into Encoding Part and Decoding Part as shown in Figure 1. Each part is responsible for compressing the original image and restoring the compressed image.
+  
+  (Ko)Segnet은 이미지 내의 물체들을 의미 있는 단위로 분할해 내는 것을 목적으로 한다. 즉, 이미지의 각 픽셀이 어느 클레스에 속하는지 예측하는 것이다. 본 프로젝트에서는 CT 이미지상에서 폐의 위치만 분할하는 것이 목적이기에 출력 이미지는 폐가 속한 픽셀의 값은 1, 그 이외의 픽셀값은 전부 0으로 나타내어 진다.
+ Segnet의 구조는 그림 1과 같이 Encoding 파트와 Decoding 파트 2개로 나뉜다. 각각의 파트는 원본 이미지를 압축시키고 압축된 이미지를 복원하는 역할을 담당한다. 
+ 
