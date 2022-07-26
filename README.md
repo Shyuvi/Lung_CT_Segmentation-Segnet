@@ -27,6 +27,7 @@ Classification of lung area only in lung CT
  
   ## 3. Result
    (Eng)As shown in Fig 2, DSC of about 0.98 can be confirmed, and the validation result is also shown with a similar value. The overall learning proceeded smoothly and there was no overfitting.
+   
    (Ko)그림 2와 같이 약 0.98의 DSC를 확인할 수 있고 validation 결과 역시 비슷한 수치로 나타나고 있다. 전체적인 학습이 원활하게 진행되었고 overfitting 또한 되지 않았다.
  
  ![image](https://user-images.githubusercontent.com/58457155/181034867-bbc5b9c9-7025-43d7-816b-c84a5203c9fa.png)
