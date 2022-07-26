@@ -18,4 +18,5 @@ Classification of lung area only in lung CT
 
 
 ## 2. Introduction
-  
+  ![image](https://user-images.githubusercontent.com/58457155/180979205-dc50151e-1e8f-43bc-b7a9-eed10f22b0c2.png)
+
