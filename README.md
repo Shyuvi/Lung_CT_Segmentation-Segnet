@@ -47,4 +47,4 @@ Fig 3. Predict results
 
 (Ko)파이썬으로 코딩된 프로젝트를 원한다면 아래의 URL 참고
 
-URL: https://github.com/Mirynae/Lung_CT_Segmentation-Segnet/blob/main/README.md
+URL: https://github.com/Mirynae/Lung_CT_Segmentation-Segnet
