@@ -42,3 +42,9 @@ Fig 3. Predict results
 [1] https://github.com/kairess/CT_lung_segmentation/tree/master/dataset
 
 [2] V. Badrinarayanan, A. Kendall and R. Cipolla, "SegNet: A Deep Convolutional Encoder-Decoder Architecture for Image Segmentation," in IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 39, no. 12, pp. 2481-2495, 1 Dec. 2017, doi: 10.1109/TPAMI.2016.2644615.
+
+(Eng)If you want a project coded in Python, refer to the URL below
+
+(Ko)파이썬으로 코딩된 프로젝트를 원한다면 아래의 URL 참고
+
+URL: https://github.com/Mirynae/Lung_CT_Segmentation-Segnet/blob/main/README.md
